@@ -1,7 +1,10 @@
 [package]
 name = "tree-sitter-http"
+description = "HTTP Grammar for tree-sitter"
 version = "0.1.0"
 edition = "2024"
+license = "MIT"
+
 build = "build.rs"
 
 [dependencies]
@@ -9,4 +12,3 @@ tree-sitter = "0.26.13"
 
 [build-dependencies]
 cc = "1.0"
-
